@@ -1,7 +1,11 @@
 import React from "react";
-import './App.scss'
-import PortfolioContainer from "./components/PortfolioContainer";
+import About from "./components/About/index";
 
-const App = () => <PortfolioContainer />;
+function App() {
+    return(
+        <About />
+    );
+}
+
 
 export default App;
