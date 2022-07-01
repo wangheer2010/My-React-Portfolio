@@ -1,14 +1,14 @@
 import React from 'react';
-import Nav from './components/Nav';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import NavTabs from './components/Nav/Nav';
+import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div>
-      <Nav></Nav>
+      <NavTabs></NavTabs>
       <main>
         <About></About>
         <Portfolio></Portfolio>
