@@ -11,12 +11,10 @@ function App() {
     <div>
       <Header></Header>
       <NavTabs></NavTabs>
-      <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <Contact></Contact>
-      </main>
+      <About></About>
+      <Portfolio></Portfolio>
+      <Resume></Resume>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
